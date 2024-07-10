@@ -4,15 +4,13 @@
   font-style: normal;
 }
 
-/* Header */
-.header{
-    background-image: url(img/Hero-bg.png);
+/* Shared-style */
+.secondary-bg-1{
+    background-color: rgb(222, 222, 222);
 }
-/* Banner Style */
-.goup{
-    width: 140px;
-    height: 140px;
-    margin-bottom: 80px;
+
+.secondary-bg-2{
+    background-color: rgb(255, 255, 255);
 }
 
 .btn-primary{
@@ -24,6 +22,20 @@
     border-radius: 5px;
     padding: 18px 25px;
     text-align: center;
+}
+
+.p-color{
+    color:rgb(152, 152, 152)
+}
+/* Header */
+.header{
+    background-image: url(img/Hero-bg.png);
+}
+/* Banner Style */
+.group{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 80px;
 }
 
 .banner{
@@ -40,4 +52,28 @@
 .banner-description{
     font-size: small;
     margin: 0px 50px;
+}
+
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+main section{
+    /* margin-top: 130px; */
+    margin-bottom: 130px;
+}
+
+/* Development */
+.development{
+    border-radius: 10px;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.development-column{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(252, 252, 252);
 }
