@@ -113,5 +113,49 @@ main section{
 }
 
 .iframe{
+    border-radius: 15px;
     margin-top: 100px;
+}
+
+/* Target */
+.my-target{
+    padding: 0px 80px;
+    text-align: center;
+}
+
+.target-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.target-1{
+    background-color: rgb(245, 238, 229);
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.target-2{
+    background-color: rgb(226, 243, 250);
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.target-3{
+    background-color: rgb(248, 248, 240);
+    padding: 30px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.href{
+    color: black;
+    font-weight: bold;
+
 }
