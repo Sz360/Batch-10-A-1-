@@ -6,7 +6,7 @@
 
 /* Shared-style */
 .secondary-bg-1{
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(246, 244, 244);
 }
 
 .secondary-bg-2{
@@ -61,14 +61,13 @@ main{
 }
 
 main section{
-    /* margin-top: 130px; */
     margin-bottom: 130px;
 }
 
 /* Development */
 .development{
     border-radius: 10px;
-    padding: 50px 80px;
+    padding: 100px 80px;
     text-align: center;
 }
 
@@ -76,4 +75,22 @@ main section{
     display: flex;
     justify-content: space-between;
     background-color: rgb(252, 252, 252);
+    padding: 50px 50px;
 }
+
+.development-layer-1{
+    padding-right: 200px;
+    text-align: left;
+}
+
+.development-layer-2{
+    padding-right: 150px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.development-title{
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+}
+
