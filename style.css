@@ -24,9 +24,21 @@
     text-align: center;
 }
 
-.p-color{
-    color:rgb(152, 152, 152)
+.btn-primary-1{
+    margin: 20px 0px;
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    border-color: rgb(152, 152, 152);
+    color: rgb(152, 152, 152);
+    padding: 10px 15px;
+    text-align: center;
 }
+
+.p-color{
+    color:rgb(152, 152, 152);
+}
+
 /* Header */
 .header{
     background-image: url(img/Hero-bg.png);
@@ -94,3 +106,12 @@ main section{
     color: rgb(95, 95, 95);
 }
 
+/* Inspiration */
+.inspiration{
+    padding: 0px 80px;
+    text-align: center;
+}
+
+.iframe{
+    margin-top: 100px;
+}
